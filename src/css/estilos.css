@@ -122,6 +122,14 @@ main {
     max-width: 200px;
 }
 
+.listagem .lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
 .listagem .pokedev img {
     width: 25%;
 }
@@ -140,7 +148,7 @@ main {
     border-bottom-left-radius: 30px;
     min-height: 70px;
 
-    transition: 0.15 ease-in-out;
+    transition: .2s ease-in-out;
 }
 
 .listagem .pokedev:hover {
